@@ -1,0 +1,17 @@
+@media  screen and (max-width:999px) {
+    #thirdDiv{
+        width: 30vh;
+        margin-left: 3.4rem;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    #thirdDiv{
+        width: 177vh;
+        margin-left:3.3rem
+    }
+    #paraDiv,#condition-div{
+        padding-left:30rem
+        
+    }
+}
