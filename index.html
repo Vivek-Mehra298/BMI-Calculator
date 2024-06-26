@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobileNavigiation.css">
+</head>
+<body>
+
+    <div id="mainDiv">
+          <h1>BMI Calculator</h1>
+    </div>
+
+    <div id="secondDiv">
+
+       <div class="inner-div"> 
+        <label for="height">Height(in cm) : </label>
+        <input type="text" name="" id="height">
+       </div>
+       <div class="inner-div">
+        <label for="weight" class="vajan">Weight(in kg) : </label>
+        <input type="text" id="weight">
+       </div>
+        <div class="inner-div">
+        <button onclick="calculateBMI()">Check BMI</button>
+        </div>
+
+    </div>
+
+    <div id="thirdDiv">
+
+        <div id="paraDiv">  
+         <p>Your BMI is : </p>
+         <p id="para"></p>
+        </div>
+         <div id="condition-div">
+             <p id="bodyCondition"></p>
+         </div>
+ 
+    </div>
+
+   <footer>
+        <p id="footerPara">
+            &#169;2024 Made by Vivek Dehariya
+        </p>
+    </footer>  
+
+    <script src="first.js"></script>
+</body>
+</html>
